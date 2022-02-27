@@ -4,7 +4,8 @@
 
 .App {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  flex-direction: column;
 }
 
 body {
@@ -43,4 +44,10 @@ body {
 
 .TitleSection button:hover {
   cursor: pointer;
+}
+
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
